@@ -19,3 +19,4 @@ for the commit rules.
 | 2026-09-12 | automation section                    |
 | 2026-09-12 | operations section                    |
 | 2026-09-12 | security section                      |
+| 2026-09-12 | final cta and footer                  |
