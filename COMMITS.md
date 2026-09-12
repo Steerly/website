@@ -15,3 +15,4 @@ for the commit rules.
 | 2026-09-12 | problem section                       |
 | 2026-09-12 | capabilities section                  |
 | 2026-09-12 | product showcase section              |
+| 2026-09-12 | student journey section               |
