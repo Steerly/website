@@ -21,3 +21,4 @@ for the commit rules.
 | 2026-09-12 | security section                      |
 | 2026-09-12 | final cta and footer                  |
 | 2026-09-12 | structured data, robots, sitemap      |
+| 2026-09-12 | demo request form (Web3Forms)         |

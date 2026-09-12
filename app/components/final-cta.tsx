@@ -1,4 +1,4 @@
-import { Button } from "./button";
+import { DemoForm } from "./demo-form";
 import { Reveal } from "./reveal";
 
 export function FinalCta() {
@@ -13,12 +13,10 @@ export function FinalCta() {
             See how Steerly can simplify your driving school&apos;s daily
             operations.
           </p>
-          <div className="mt-8 flex justify-center">
-            <Button href="#book-demo" variant="primary">
-              Book a Demo
-            </Button>
+          <div className="mt-10">
+            <DemoForm />
           </div>
-          <p className="mt-6 font-mono text-xs uppercase tracking-[0.14em] text-black/60">
+          <p className="mt-8 font-mono text-xs uppercase tracking-[0.14em] text-black/60">
             Built for modern driving schools.
           </p>
         </Reveal>

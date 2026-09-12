@@ -1,7 +1,9 @@
 import type { AnchorHTMLAttributes } from "react";
 
+type Variant = "primary" | "secondary";
+
 type ButtonProps = AnchorHTMLAttributes<HTMLAnchorElement> & {
-  variant?: "primary" | "secondary";
+  variant?: Variant;
 };
 
 const base =
@@ -12,8 +14,10 @@ const variants = {
   secondary: "border border-black text-black hover:bg-black hover:text-yellow",
 } as const;
 
+export function buttonClassName(variant: Variant = "primary", className?: string) {
+  return `${base} ${variants[variant]} disabled:opacity-50 disabled:pointer-events-none ${className ?? ""}`;
+}
+
 export function Button({ variant = "primary", className, ...props }: ButtonProps) {
-  return (
-    <a className={`${base} ${variants[variant]} ${className ?? ""}`} {...props} />
-  );
+  return <a className={buttonClassName(variant, className)} {...props} />;
 }
