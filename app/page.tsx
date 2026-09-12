@@ -7,6 +7,7 @@ import { ShowcaseSection } from "./components/showcase-section";
 import { StudentJourney } from "./components/student-journey";
 import { AutomationSection } from "./components/automation-section";
 import { OperationsSection } from "./components/operations-section";
+import { SecuritySection } from "./components/security-section";
 
 export default function Home() {
   return (
@@ -21,6 +22,7 @@ export default function Home() {
         <StudentJourney />
         <AutomationSection />
         <OperationsSection />
+        <SecuritySection />
       </main>
     </>
   );
