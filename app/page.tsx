@@ -5,6 +5,7 @@ import { ProblemSection } from "./components/problem-section";
 import { CapabilitiesSection } from "./components/capabilities-section";
 import { ShowcaseSection } from "./components/showcase-section";
 import { StudentJourney } from "./components/student-journey";
+import { AutomationSection } from "./components/automation-section";
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
         <CapabilitiesSection />
         <ShowcaseSection />
         <StudentJourney />
+        <AutomationSection />
       </main>
     </>
   );
