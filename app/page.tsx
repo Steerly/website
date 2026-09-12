@@ -1,4 +1,5 @@
 import { Navbar } from "./components/navbar";
+import { StructuredData } from "./components/structured-data";
 import { Hero } from "./components/hero";
 import { ProductStrip } from "./components/product-strip";
 import { ProblemSection } from "./components/problem-section";
@@ -14,6 +15,7 @@ import { Footer } from "./components/footer";
 export default function Home() {
   return (
     <>
+      <StructuredData />
       <Navbar />
       <main>
         <Hero />
