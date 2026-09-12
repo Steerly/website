@@ -1,5 +1,6 @@
 import { Navbar } from "./components/navbar";
 import { Hero } from "./components/hero";
+import { ProductStrip } from "./components/product-strip";
 
 export default function Home() {
   return (
@@ -7,6 +8,7 @@ export default function Home() {
       <Navbar />
       <main>
         <Hero />
+        <ProductStrip />
       </main>
     </>
   );
