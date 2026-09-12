@@ -9,3 +9,4 @@ for the commit rules.
 | 2026-09-12 | first commit (initial Next.js app)    |
 | 2026-09-12 | fonts, color tokens, base metadata    |
 | 2026-09-12 | logo, favicon, button component       |
+| 2026-09-12 | navbar                                |
